@@ -1,0 +1,64 @@
+.catForm {
+	border: 1rem solid black;
+	transform: skew(-10.2deg);
+	background-color: var(--primary-color);
+}
+.catForm-content {
+	transform: skew(10.2deg);
+	margin: 2rem;
+}
+.catForm form {
+	margin: 1rem;
+	font-size: 2.2rem;
+}
+.catForm fieldset {
+	padding: 2rem;
+	text-align: center;
+	border: 1rem solid black;
+	/* background-color: white; */
+	border-radius: 0.8rem;
+	margin: 5rem;
+	/* color: black; */
+}
+.catForm legend {
+	font-size: 3rem;
+	padding: 1rem;
+	background-color: black;
+	text-align: center;
+	margin: auto;
+	color: white;
+	border-radius: 0.8rem;
+}
+.catForm input {
+	transition: all 0.2s;
+	margin: auto 1rem;
+}
+.catForm input[type='text'] {
+	margin: 1rem;
+	width: 50%;
+	font-size: 2rem;
+	border-radius: 0.8rem;
+	padding: 0.5rem;
+	margin: 2.5rem;
+	/* outline: none; */
+	outline: 0.5rem solid transparent;
+}
+.catForm input[type='text']:focus,
+.catForm input[type='text']:focus-visible {
+	outline: 0.5rem solid black;
+}
+
+.catForm button {
+	font-size: 4rem;
+	margin: 1rem;
+	padding: 1rem;
+	transition: all 0.2s;
+	border-radius: 0.8rem;
+	border: 0.5rem solid transparent;
+	color: white;
+	background-color: black;
+	cursor: pointer;
+}
+.catForm button:hover {
+	color: var(--secondary-color);
+}

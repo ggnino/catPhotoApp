@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Coustard&family=Titan+One&family=Wendy+One&display=swap');
+@import url(./headerStyles.css);
+@import url(./catPhotoSectionStyles.css);
+@import url(./catListsStyles.css);
+@import url(./catHateStyles.css);
+@import url(./catFormStyles.css);
+@import url(./footerStyles.css);
+:root {
+	font-family: 'Coustard', serif;
+	color: white;
+	box-sizing: border-box;
+	--primary-color: #fb6107;
+	--secondary-color: #f3de2c;
+	--heading-color: #7cb518;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 62.5%;
+	scrollbar-color: var(--primary-color) black;
+	scrollbar-width: thin;
+}
+body {
+	background-color: var(--heading-color);
+	font-size: 2rem;
+	overflow-x: hidden;
+}
+a,
+a:visited {
+	font-style: italic;
+	color: inherit;
+}
+a:hover {
+	color: var(--heading-color);
+}
+
+h2 {
+	font-size: 3rem;
+}
+ul,
+ol {
+	margin: 2rem;
+	padding: 1rem;
+	font-size: 3rem;
+	font-style: italic;
+}
+
+.secondary-heading,
+button,
+input[type='radio'],
+input[type='checkbox'] {
+	font-family: 'Wendy One', sans-serif;
+	color: inherit;
+}
+
+.container {
+	position: relative;
+	width: 100%;
+	/* padding: 2rem 0; */
+	/* height: 80vh; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/* SVG  */
+.my-svg {
+	width: 30rem;
+}
+
+img {
+	border-radius: 1.2rem;
+}
+
+h3 {
+	font-size: 4rem;
+	padding: 1rem;
+}
+
+figcaption {
+	text-align: center;
+}
+
+/* Animations */
+@keyframes ami {
+	to {
+		transform: translateY(0rem);
+	}
+}

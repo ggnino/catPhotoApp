@@ -1,0 +1,98 @@
+h2.primary-heading {
+	font-size: 5rem;
+}
+
+.class-sleeping-kitty-1 {
+	fill: #e51c34;
+}
+
+.class-sleeping-kitty-2 {
+	fill: #ef3f61;
+}
+
+.class-sleeping-kitty-3 {
+	fill: #f6f6f6;
+}
+
+.class-sleeping-kitty-4 {
+	fill: #fff;
+}
+
+.class-sleeping-kitty-4,
+.class-sleeping-kitty-5,
+.class-sleeping-kitty-6 {
+	fill-rule: evenodd;
+}
+
+.class-sleeping-kitty-7 {
+	fill: #b2b2b2;
+}
+
+.class-sleeping-kitty-5,
+.class-sleeping-kitty-8 {
+	fill: #383c47;
+}
+
+.class-sleeping-kitty-8 {
+	clip-rule: evenodd;
+}
+
+.class-sleeping-kitty-9 {
+	fill: #dadada;
+}
+
+.class-sleeping-kitty-10 {
+	fill: #70788f;
+}
+
+.class-sleeping-kitty-11 {
+	clip-path: url(#clippath);
+}
+
+.class-sleeping-kitty-6 {
+	fill: #ff275a;
+}
+
+.class-sleeping-kitty-12 {
+	fill: #52545b;
+}
+
+.class-sleeping-kitty-13 {
+	fill: #47484f;
+}
+
+.class-sleeping-kitty-14 {
+	fill: #fcea10;
+}
+
+#OBJECTS path,
+.class-sleeping-kitty-8 {
+	transform: translateY(25rem);
+	animation: ami 3s forwards;
+}
+
+.class-sleeping-kitty-14 {
+	opacity: 0;
+}
+.primary-heading {
+	background-color: black;
+	text-align: center;
+	margin: 1.5rem auto;
+	width: fit-content;
+	border-radius: 0.8rem;
+	padding: 1.5rem;
+	font-size: 6rem;
+	color: var(--secondary-color);
+	font-family: 'Titan One', cursive;
+}
+.header {
+	transform: skew(-12.3deg);
+	background-color: var(--primary-color);
+	border-left: 1rem solid black;
+	border-right: 1rem solid black;
+	/* border-bottom: 1rem solid black; */
+}
+.header-content {
+	padding: 2rem 0;
+	transform: skew(13.1deg);
+}

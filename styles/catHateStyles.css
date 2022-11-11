@@ -1,0 +1,189 @@
+.class-thunder-1 {
+	fill: #000000;
+}
+
+.class-thunder-2 {
+	fill: #b4c6cc;
+}
+
+.class-thunder-3 {
+	fill: #f48b00;
+}
+
+.class-thunder-4 {
+	fill: #000000;
+}
+
+.class-thunder-5 {
+	fill: #f7cf28;
+}
+
+.class-thunder-6 {
+	fill: #000000;
+}
+
+.class-thunder-7 {
+	fill: #ffe888;
+}
+
+.class-water-1 {
+	opacity: 0.23;
+}
+
+.class-water-1,
+.class-water-2 {
+	fill: #fff;
+}
+
+.class-water-2 {
+	opacity: 0.5;
+}
+
+.class-water-3 {
+	fill: #aad6ef;
+}
+
+.class-water-4 {
+	fill: #000000;
+}
+
+.class-angry-cat-1 {
+	fill: #0c6091;
+}
+
+.class-angry-cat-1,
+.class-angry-cat-2,
+.class-angry-cat-3,
+.class-angry-cat-4,
+.class-angry-cat-5,
+.class-angry-cat-6 {
+	fill-rule: evenodd;
+}
+
+.class-angry-cat-2 {
+	fill: #fff;
+}
+
+.class-angry-cat-3,
+.class-angry-cat-7 {
+	fill: #383c47;
+}
+
+.class-angry-cat-8 {
+	clip-path: url(#clippath-1);
+}
+
+.class-angry-cat-4,
+.class-angry-cat-9 {
+	fill: #c60a01;
+}
+
+.class-angry-cat-7,
+.class-angry-cat-9 {
+	clip-rule: evenodd;
+}
+
+.class-angry-cat-10 {
+	fill: #70788f;
+}
+
+.class-angry-cat-11 {
+	clip-path: url(#clippath);
+}
+
+.class-angry-cat-5 {
+	fill: #ff275a;
+}
+
+.class-scary-cat-1 {
+	fill: #fff;
+}
+
+.class-scary-cat-1,
+.class-scary-cat-2,
+.class-scary-cat-3,
+.class-scary-cat-4,
+.class-scary-cat-5 {
+	fill-rule: evenodd;
+}
+
+.class-scary-cat-2,
+.class-scary-cat-6 {
+	fill: #383c47;
+}
+
+.class-scary-cat-7 {
+	clip-path: url(#clippath-1);
+}
+
+.class-scary-cat-3,
+.class-scary-cat-8 {
+	fill: #c60a01;
+}
+
+.class-scary-cat-6,
+.class-scary-cat-8 {
+	clip-rule: evenodd;
+}
+
+.class-scary-cat-9 {
+	fill: #70788f;
+}
+
+.class-scary-cat-10 {
+	clip-path: url(#clippath);
+}
+
+.class-scary-cat-4 {
+	fill: #ff275a;
+}
+.catHate {
+	position: relative;
+	border: 1rem solid black;
+	transform: skew(10deg);
+	background-color: black;
+	width: 100%;
+	padding: 3rem 0;
+}
+.catHate-content {
+	transform: skew(-10deg);
+	/* margin: 2rem; */
+	/* padding: 5rem; */
+	height: 100%;
+}
+.catHate h3 {
+	margin-top: 5rem;
+}
+.catHate figure img {
+	width: 45rem;
+}
+.catHate figure {
+	margin: 2rem;
+}
+/* Cat Hate List */
+#thunder,
+#thunder2 {
+	position: absolute;
+	top: 0rem;
+	left: 40rem;
+	z-index: 2;
+}
+#thunder2 {
+	z-index: 1;
+	left: 62rem;
+}
+#scary-cat,
+#angry-cat {
+	position: absolute;
+	bottom: 0rem;
+	right: 20rem;
+}
+#angry-cat {
+	right: 50rem;
+}
+#water {
+	position: absolute;
+	width: 35rem;
+	left: 50rem;
+	bottom: 0rem;
+}

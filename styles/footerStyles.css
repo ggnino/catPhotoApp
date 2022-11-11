@@ -1,0 +1,14 @@
+footer {
+	position: relative;
+	padding: 2rem;
+	font-size: 3rem;
+	border-left: 1rem solid black;
+	border-right: 1rem solid black;
+	border-bottom: 1rem solid black;
+	transform: skew(50deg);
+	text-align: center;
+	background-color: black;
+}
+footer p {
+	transform: skew(-50deg);
+}

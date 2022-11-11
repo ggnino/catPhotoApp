@@ -1,0 +1,170 @@
+.class-food-1 {
+	fill: #fffcc0;
+}
+
+.class-food-2 {
+	fill: #93b5b2;
+}
+
+.class-food-3 {
+	fill: #b0d9d5;
+}
+
+.class-food-4 {
+	fill: none;
+	stroke: #000000;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-width: 0px;
+}
+
+.class-food-5 {
+	fill: #000000;
+}
+
+.class-tower-1 {
+	fill: #feb48c;
+}
+
+.class-tower-2 {
+	fill: #cf9272;
+}
+
+.class-tower-3 {
+	fill: #ffcdde;
+}
+
+.class-tower-4 {
+	fill: #000000;
+}
+
+.class-fish-1 {
+	fill: #b0d9d5;
+}
+
+.class-fish-2 {
+	fill: #000000;
+}
+
+.class-yarn-1 {
+	fill: #000000;
+}
+
+.class-yarn-2 {
+	fill: #e87323;
+}
+
+.class-yarn-3 {
+	fill: #000000;
+}
+.class-green-yarn-1 {
+	fill: #95e5d8;
+}
+
+.class-green-yarn-2 {
+	fill: #000000;
+}
+
+.class-green-yarn-3 {
+	fill: #000000;
+}
+.class-kitty-1,
+.class-kitty-2 {
+	fill: #fff;
+}
+
+.class-kitty-2,
+.class-kitty-3,
+.class-kitty-4,
+.class-kitty-5 {
+	fill-rule: evenodd;
+}
+
+.class-kitty-3,
+.class-kitty-6 {
+	fill: #383c47;
+}
+
+.class-kitty-6 {
+	clip-rule: evenodd;
+}
+
+.class-kitty-7 {
+	fill: #70788f;
+}
+
+.class-kitty-8 {
+	clip-path: url(#clippath);
+}
+
+.class-kitty-4 {
+	fill: #ff275a;
+}
+
+.class-kitty-9 {
+	fill: #ff0622;
+}
+
+/* Cat Love List */
+.catlove {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	border-left: 1rem solid black;
+	border-right: 1rem solid black;
+	border-bottom: 1rem solid black;
+	margin: -1rem;
+	transform: skew(-9.2deg);
+	background-color: var(--primary-color);
+}
+.catlove .my-svg {
+	position: absolute;
+	top: 10rem;
+	left: 53rem;
+}
+
+#catsLove {
+	position: relative;
+	transform: skew(9.2deg);
+}
+#catsLove h2 {
+	margin-bottom: 5rem;
+}
+
+#my-kitty {
+	left: 38rem;
+}
+#catsLove img {
+	width: 45rem;
+	height: 30rem;
+}
+#yarn-ball,
+#green-yarn-ball {
+	top: 30rem;
+	left: 60rem;
+}
+#green-yarn-ball {
+	left: 15rem;
+}
+#catsLove figure {
+	margin: 2rem;
+}
+#fish {
+	width: 20rem;
+	top: 60rem;
+	left: 45rem;
+}
+#cat-tower,
+#cat-food {
+	top: 50rem;
+	left: initial;
+	right: 20rem;
+}
+#cat-food {
+	width: 10rem;
+	top: 74rem;
+	right: 48rem;
+}
