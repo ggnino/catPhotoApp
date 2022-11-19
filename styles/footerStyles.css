@@ -1,6 +1,6 @@
 footer {
 	position: relative;
-	padding: 2rem;
+	padding: 5rem;
 	font-size: 3rem;
 	border-left: 1rem solid black;
 	border-right: 1rem solid black;
@@ -8,7 +8,10 @@ footer {
 	transform: skew(50deg);
 	text-align: center;
 	background-color: black;
+	margin-top: -1rem;
+	min-width: 90%;
 }
 footer p {
 	transform: skew(-50deg);
+	min-width: 100%;
 }

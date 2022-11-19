@@ -140,19 +140,20 @@
 .catHate {
 	position: relative;
 	border: 1rem solid black;
-	transform: skew(10deg);
+	transform: skew(10.6deg);
 	background-color: black;
-	width: 100%;
+	min-width: 100%;
 	padding: 3rem 0;
 }
 .catHate-content {
-	transform: skew(-10deg);
-	/* margin: 2rem; */
-	/* padding: 5rem; */
-	height: 100%;
+	transform: skew(-10.6deg);
+	width: 100%;
 }
 .catHate h3 {
 	margin-top: 5rem;
+}
+.catHate .my-svg {
+	max-width: 10%;
 }
 .catHate figure img {
 	width: 45rem;
@@ -183,7 +184,6 @@
 }
 #water {
 	position: absolute;
-	width: 35rem;
 	left: 50rem;
 	bottom: 0rem;
 }

@@ -112,34 +112,35 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
+	min-width: 100%;
 	border-left: 1rem solid black;
 	border-right: 1rem solid black;
 	border-bottom: 1rem solid black;
-	margin: -1rem;
 	transform: skew(-9.2deg);
 	background-color: var(--primary-color);
+	/* padding: 4rem; */
 }
 .catlove .my-svg {
 	position: absolute;
-	top: 10rem;
-	left: 53rem;
+	max-width: 10%;
 }
 
 #catsLove {
-	position: relative;
+	/* position: relative; */
 	transform: skew(9.2deg);
+	width: 100%;
+	padding: 4rem;
 }
 #catsLove h2 {
 	margin-bottom: 5rem;
 }
 
 #my-kitty {
+	top: 10rem;
 	left: 38rem;
 }
-#catsLove img {
-	width: 45rem;
-	height: 30rem;
+#catsLove .my-img {
+	max-width: 45rem;
 }
 #yarn-ball,
 #green-yarn-ball {
@@ -153,18 +154,17 @@
 	margin: 2rem;
 }
 #fish {
-	width: 20rem;
+	max-width: 5%;
 	top: 60rem;
 	left: 45rem;
 }
 #cat-tower,
 #cat-food {
-	top: 50rem;
-	left: initial;
-	right: 20rem;
+	top: 50%;
+	right: 20%;
 }
 #cat-food {
-	width: 10rem;
-	top: 74rem;
-	right: 48rem;
+	max-width: 3.4%;
+	top: 72%;
+	right: 29.5%;
 }

@@ -1,5 +1,6 @@
 h2.primary-heading {
 	font-size: 5rem;
+	width: fit-content;
 }
 
 .class-sleeping-kitty-1 {
@@ -78,7 +79,7 @@ h2.primary-heading {
 	background-color: black;
 	text-align: center;
 	margin: 1.5rem auto;
-	width: fit-content;
+
 	border-radius: 0.8rem;
 	padding: 1.5rem;
 	font-size: 6rem;
@@ -90,9 +91,19 @@ h2.primary-heading {
 	background-color: var(--primary-color);
 	border-left: 1rem solid black;
 	border-right: 1rem solid black;
-	/* border-bottom: 1rem solid black; */
+	padding: 2rem 5rem;
 }
 .header-content {
-	padding: 2rem 0;
+	max-width: 100%;
+	padding: 4rem;
 	transform: skew(13.1deg);
+}
+#sleepingKitty {
+	min-width: 30rem;
+}
+/* Animations */
+@keyframes ami {
+	to {
+		transform: translateY(0rem);
+	}
 }

@@ -1,10 +1,11 @@
 .catForm {
 	border: 1rem solid black;
-	transform: skew(-10.2deg);
+	transform: skew(-11deg);
 	background-color: var(--primary-color);
+	margin-top: -1rem;
 }
 .catForm-content {
-	transform: skew(10.2deg);
+	transform: skew(11deg);
 	margin: 2rem;
 }
 .catForm form {
@@ -15,10 +16,8 @@
 	padding: 2rem;
 	text-align: center;
 	border: 1rem solid black;
-	/* background-color: white; */
 	border-radius: 0.8rem;
 	margin: 5rem;
-	/* color: black; */
 }
 .catForm legend {
 	font-size: 3rem;
